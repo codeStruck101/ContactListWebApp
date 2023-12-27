@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Contact List Project Introduction
+This is a Contact list Project made as a part of a course from an educational platform called Coding Ninjas.IT is mainly made using ReactJS.For managing the store/state we are using Redux toolkit.The Project fetches conatct details from https://jsonplaceholder.typicode.com/users API.All styles are done using TailwindCSS.In this project, a user can perform CRUD operations on the contact list fetched from API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Go Live to [contact-list](link for web app)
 
-## Available Scripts
+# Installation and Run
 
-In the project directory, you can run:
+To execute the code on ytour local system,please follow the folllowing instructions:
 
-### `npm start`
+- Download the code onto your machine.
+- Launch the terminal and navigate to the primary directory of the code.
+- Execute the command npm install in the terminal to install all necessary dependencies.
+- Run the code by entering the command "npm run start" in the terminal.
+- View the output by accessing your web browser and entering https://localhost:3000.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Displays a default list of contact details on the screen.
+- Can obtain additional information about an individual present in the   list on mouse click over their name or contact number.
+- Can update details already present in the Contact List.
+- Can add new contact on clicking "add contact" button
+- Can delete contact on the click of "delete" button.
+- So simply put in words this app allows to perform CRUD operations on contact list which is fetched via an API.
 
-### `npm test`
+# Tools used :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ReactJS
+- JavaScript
+- Redux Toolkit
+- TailwindCSS
+- React-Tostify
+- HTML
 
-### `npm run build`
+# Screenshots:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
