@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// importing the Navbar component
+import NavBar from "./Components/NavBar";
+
+// importing contactList component containing the main container
+import ContactList from "./Components/ContactList";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-screen flex flex-col w-full">
+      {/* rendering the Navbar */}
+      <NavBar />
+      {/* rendering the ContactList */}
+      <ContactList />
     </div>
   );
 }

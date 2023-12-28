@@ -1,3 +1,21 @@
+/* adding all the tailwind CSS links*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styling the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BEADFA; 
+  border-radius: 10px;
+  height: 10px;
+} /*end*/
+
+/*Body Section Styling*/
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +29,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
